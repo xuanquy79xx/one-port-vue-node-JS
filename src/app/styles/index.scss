@@ -1,0 +1,59 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    height: 100vh;
+    line-height: 1.5;
+    text-align: left;
+    letter-spacing: .25px;
+    color: #333;
+    background-color: white;
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    margin-bottom: .5rem
+}
+a {
+    text-decoration: none!important;
+    color: #333
+}
+
+a,
+button {
+    cursor: pointer
+}
+
+ul>li {
+    list-style-type: none
+}
+
+::selection {
+    background: #f6f6f6;
+    color: #00acac;
+    text-shadow: 2px 0 10px #67cccf
+}
